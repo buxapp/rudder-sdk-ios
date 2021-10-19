@@ -18,7 +18,6 @@ let package = Package(
         .target(
             name: "Rudder",
             path: "Rudder",
-            sources: ["Rudder"],
             publicHeadersPath: "Rudder/**",
             cSettings: [
                 .headerSearchPath("Rudder/**")
