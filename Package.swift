@@ -10,7 +10,6 @@ let package = Package(
     products: [
         .library(
             name: "Rudder",
-            type: .dynamic,
             targets: ["Rudder"]
         )
     ],
@@ -18,7 +17,6 @@ let package = Package(
         .target(
             name: "Rudder",
             path: "Rudder",
-            publicHeadersPath: "Rudder/**",
             cSettings: [
                 .headerSearchPath("Rudder/**")
             ]
